@@ -108,6 +108,16 @@ ul{
     padding-top: 5px;
 }
 
+.my-button-black2{
+    border-radius:20px;
+    background-color: rgba(153, 193, 226, 0.999);
+    display: inline-block;
+    width: calc((100% / 3) * 1);
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
 
 /*
 
@@ -185,6 +195,24 @@ main .container .my-row .main-small-col{
     padding:  0 12%;
 }
 
+main .container .main-full-col h1{
+    font-size: xx-large;
+    margin-bottom:10px ;
+    text-align: center;
+ }
+ 
+ main .container .main-full-col{
+    text-align: center;
+    padding:  0 12%;
+ }
+
+ main .container .main-full-col h2{
+    margin-bottom:10px;
+    background-image: url(../img/stars.svg);
+    background-size: 45%;
+    background-repeat:repeat-x;
+
+ }
 
 
 /*
@@ -252,7 +280,7 @@ debug main section .main-small-col{
     background-color: plum;
 }
 
-.debug main section .main-full-col{
+debug main section .main-full-col{
     height: 600px;
     outline: 2px dashed black;
     background-color: green;
