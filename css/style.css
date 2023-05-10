@@ -108,11 +108,22 @@ ul{
     padding-top: 5px;
 }
 
-.my-button-black2{
+.my-button-sky{
     border-radius:20px;
     background-color: rgba(153, 193, 226, 0.999);
     display: inline-block;
     width: calc((100% / 3) * 1);
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.my-button-sky2{
+    border-radius:20px;
+    background-color: rgba(153, 193, 226, 0.999);
+    display: inline-block;
+    width: calc((100% / 8) * 1);
     height: 30px;
     text-align: center;
     padding-top: 5px;
@@ -231,7 +242,8 @@ footer .footer-top{
 }
 
 footer hr{
-    border-color: white;
+    border-color: skyblue;
+    margin-bottom: 3%;
 }
 
 footer .footer-bottom .footer-info-container{
@@ -303,12 +315,12 @@ debug main section .main-full-col{
     outline: 2px dashed white;
 }
 
-.debug footer section .footer-info-container{
+debug footer section .footer-info-container{
     height: 50px;
     background-color: aquamarine;
 }
 
-.debug footer section .footer-info-container > *{
+debug footer section .footer-info-container > *{
     background-color: pink;
     outline: 2px dashed black;
     padding: 5px;
